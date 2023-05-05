@@ -31,8 +31,8 @@ function deliveryCost(quantity) {
         return firstHundreadDelevaryCost;
     }
 }
-
-console.log(deliveryCost(110));
+const delevaryCost = deliveryCost(110);
+console.log(delevaryCost);
 
 
 
