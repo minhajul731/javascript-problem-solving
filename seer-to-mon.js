@@ -1,6 +1,6 @@
 function seerToMon(seer) {
     // check validation
-    if (seer == -1) {
+    if (seer < 0) {
         return "Please give positive number";
     }
     else if (seer != "number") {
@@ -12,6 +12,6 @@ function seerToMon(seer) {
     return mon;
 }
 
-const givenSeer = 20;
+const givenSeer = "20";
 const result = seerToMon(givenSeer);
 console.log(result);
